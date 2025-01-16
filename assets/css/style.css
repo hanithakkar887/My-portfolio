@@ -225,6 +225,7 @@ header .navbar ul li a:hover {
   font-size: 5rem;
   font-weight: 800;
   color: #002057;
+  padding-top: 0.5em;
 }
 .home .content h2 span {
   font-size: 5rem;
