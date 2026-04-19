@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
             skillHTML += `
             <div class="bar">
                 <div class="info">
-                    <img src="${skill.icon}" alt="Icon representing ${skill.name}" />
+                    <img src="${skill.icon}" alt="Icon representing ${skill.name}"  onerror="this.onerror=null; this.src='assets/images/TailwindCSS.png';" />
                     <span>${skill.name}</span>
                 </div>
             </div>`;
