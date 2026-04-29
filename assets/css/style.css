@@ -1937,18 +1937,45 @@ form .button-area {
     }
   }
 
-.skill-badge {
-  background: #0f172a;
-  color: #fff;
-  padding: 10px 18px;
-  border-radius: 20px;
-  font-size: 14px;
-  transition: 0.3s;
-  cursor: pointer;
+.soft-skills-container {
+  margin-top: 50px;
+  text-align: center;
 }
 
-.skill-badge:hover {
-  background: #3144b5;
-  transform: scale(1.05);
+.soft-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
-  
+
+.soft-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.soft-box {
+  background: #1e293b;
+  color: #fff;
+  padding: 20px;
+  width: 150px;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.soft-box i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+.soft-box span {
+  display: block;
+  font-size: 14px;
+}
+
+.soft-box:hover {
+  transform: translateY(-8px);
+  background: #3144b5;
+}
