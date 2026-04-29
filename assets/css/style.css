@@ -1966,23 +1966,24 @@ form .button-area {
 
 
 
-.soft-box:hover {
-  transform: translateY(-8px);
-  background: #3144b5;
-}
+
+
+
+
+
 .soft-box i {
   font-size: 28px;
-  color: #5c7cfa;
-  transition: 0.3s ease;
+  transition: 0.3s;
 }
 
-/* Glow on hover */
+.soft-box:nth-child(1) i { color: #00E676; }
+.soft-box:nth-child(2) i { color: #FF3D00; }
+.soft-box:nth-child(3) i { color: #00B0FF; }
+.soft-box:nth-child(4) i { color: #D500F9; }
+.soft-box:nth-child(5) i { color: #FFD600; }
+.soft-box:nth-child(6) i { color: #FF4081; }
+
 .soft-box:hover i {
-  color: #ffffff;
-  text-shadow: 
-    0 0 5px #5c7cfa,
-    0 0 10px #5c7cfa,
-    0 0 20px #5c7cfa,
-    0 0 40px #5c7cfa;
   transform: scale(1.2);
+  filter: brightness(1.3);
 }
