@@ -85,8 +85,15 @@
             <li><a href="#experience">Projects</a></li>
             <li><a href="#footer">Contact</a></li>
             <li>
-  <a href="https://drive.google.com/file/d/1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR/view" target="_blank" >
-    Resume
+  // <a href="https://drive.google.com/file/d/1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR/view" target="_blank" >
+  //   Resume
+    <a
+  href="https://drive.google.com/uc?export=download&id=1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR"
+  target="_blank"
+  
+>
+  Resume
+</a>
   </a>
 </li>
             </ul>
@@ -102,9 +109,16 @@
     <div class="content">
     <h2>Hi There,<br/> I'm Hani <span>Thakkar</span></h2>
     <p>i am into <span class="typing-text"></span></p>
-    <a href="#about" class="btn"><span>About Me</span>
-      <i class="fas fa-arrow-circle-down"></i>
-    </a>
+    // <a href="#about" class="btn"><span>About Me</span>
+    //   <i class="fas fa-arrow-circle-down"></i>
+    // </a>
+<a
+  href="https://drive.google.com/uc?export=download&id=1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR"
+  class="btn"
+  target="_blank"
+  >
+  <span>Resume</span>
+</a>
     <div class="socials">
         <ul class="social-icons">
           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/hani-thakkar-coding/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
