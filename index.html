@@ -88,13 +88,16 @@
   <!--  <a href="https://drive.google.com/file/d/1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR/view" target="_blank" >
     Resume 
     </a> -->
-    <a
+    <!-- <a
   href="https://drive.google.com/uc?export=download&id=1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR"
   target="_blank"
   
 >
   Resume
-</a>
+</a> -->
+       <a href="#" onclick="openAndDownload(event)">
+    Resume
+</a>       
   
 </li>
             </ul>
@@ -543,6 +546,20 @@
 
 
 </body>
+  <script>
+function openAndDownload(e) {
+    e.preventDefault();
+
+    // Open preview in new tab
+    window.open(
+        "https://drive.google.com/file/d/1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR/view",
+        "_blank"
+    );
+
+    // Trigger download
+    const link = document.createElement("a");
+    link.href = "https://drive.google.com/uc?export=download&id=1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR";
+    link.download = "";
 </html>
 
 
