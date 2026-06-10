@@ -95,9 +95,9 @@
 >
   Resume
 </a> -->
-       <a href="#" onclick="openAndDownload(event)">
+      <a href="#" onclick="openResume(event)">
     Resume
-</a>       
+</a>  
   
 </li>
             </ul>
@@ -544,22 +544,27 @@
 <script src="./assets/js/script.js" defer></script>
 <!-- <script src="script.js" defer></script> -->
 
-
-</body>
-  <script>
-function openAndDownload(e) {
+<script>
+function openResume(e) {
     e.preventDefault();
 
-    // Open preview in new tab
-    window.open(
-        "https://drive.google.com/file/d/1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR/view",
-        "_blank"
-    );
+    const pdfPath = "./assets/resume/resume.pdf";
 
-    // Trigger download
-    const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1FKOE-YZxPHnii_GoGurIw9ZRxdlHC3jR";
-    link.download = "";
+    window.open(pdfPath, "_blank");
+
+    setTimeout(() => {
+        const a = document.createElement("a");
+        a.href = pdfPath;
+        a.download = "Hani_Thakkar_Resume.pdf";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }, 500);
+}
+</script>
+</body>
+  
+ 
 </html>
 
 
